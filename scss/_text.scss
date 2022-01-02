@@ -1,0 +1,16 @@
+$parrafo:(
+   color: #000,
+   centro: center,
+   fuente: 18px,
+);
+
+
+.parrafo1{
+    color: map-get($parrafo, color);
+    text-align: map-get($parrafo, centro);
+    font-size: map-get($parrafo, fuente);
+    padding-top: 40px;
+}
+
+
+

@@ -1,0 +1,37 @@
+.contendoresFooters {
+    padding: 20px;
+    background-color: yellowgreen;
+    
+}
+
+.redes{
+    text-align: center;
+    font-size:  20px;
+    margin-top: 50px;
+}
+
+.logoF{
+    padding: 30px;
+    @extend .redes;
+    
+}
+
+@mixin ubi($width, $height){
+    height: $height;
+    width: $width;
+}
+
+.mapa{
+    @include ubi(180px, 200px);
+    margin-left: 204px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+
+.mapa
+{
+    margin-left: 75px;
+    margin-top: 15px;
+    
+}
+ }
