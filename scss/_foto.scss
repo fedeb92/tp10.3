@@ -1,0 +1,58 @@
+.fotosqs
+{
+    text-align: center;
+    padding: 20px;
+    width: 596px;
+    height: 396px;
+}
+
+.fotosqs2
+{
+    text-align: center;
+    padding: 20px;
+    width: 596px;
+    height: 396px;
+}
+.fotose1
+{
+    text-align: center;
+    margin-left: -46px;
+    padding: 20px;
+    width: 596px;
+    height: 396px;
+}
+
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+
+    .fotosqs2
+    {
+        text-align: center;
+        margin-left: -15px;
+        padding: 20px;
+        width: 350px;
+        height: 309px;
+        
+    }
+    .fotosqs
+    {
+        text-align: center;
+        margin-left: -15px;
+        padding: 20px;
+        width: 350px;
+        height: 309px;
+        
+    }
+    .fotose1
+    {
+        margin-left: -15px;
+        padding: 20px;
+        width: 350px;
+        height: 309px;
+    }
+    
+  
+    
+     }
